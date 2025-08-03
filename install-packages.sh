@@ -1,9 +1,10 @@
-#! bin/bash
+#! /bin/bash
 
 sudo pacman -Sy npm
+sudo pacman -S man
 sudo pacman -S nvim
 sudo pacman -S brave
-flatpak install flathub dev.vencord.Vesktop
+sudo pacman -Sy proton-vpn-gtk-app network-manager-applet wireguard-tools systemd-resolvconf
 sudo pacman -S ghostty
 sudo pacman -S lazygit
 
@@ -12,17 +13,12 @@ sudo pacman -S waybar wofi
 sudo pacman -S swaync cliphist
 sudo pacman -S hyprlock hyprpaper hyprsunset hyprpicker hyprshot
 sudo pacman -S xdg-desktop-portal-hyprland
+sudo pacman -S pacman-contrib
 sudo pacman -S pipewire wireplumber
 
 
 sudo pacman -S starship
 
 
-yay -S neofetch
-yay -S spotify
-yay -S spicetify-cli
-
-spicetify config current_theme Gruvify
-spicetify apply
 
 sudo pacman -S steam
