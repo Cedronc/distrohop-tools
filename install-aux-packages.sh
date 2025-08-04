@@ -7,6 +7,8 @@ yay -S spotify
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 
+yay -S --noconfirm --needed ncurses5-compat-libs vmware-keymaps
+yay -S --noconfirm --needed  vmware-workstation
 yay -S spicetify-cli
 yay -S overskride
 flatpak install flathub dev.vencord.Vesktop

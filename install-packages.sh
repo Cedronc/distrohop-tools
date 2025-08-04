@@ -1,14 +1,15 @@
 #! /bin/bash
 
-sudo pacman -Sy npm
+sudo pacman -S npm
 sudo pacman -S man
 sudo pacman -S nvim
 sudo pacman -S brave
-sudo pacman -Sy proton-vpn-gtk-app network-manager-applet wireguard-tools systemd-resolvconf
+sudo pacman -S proton-vpn-gtk-app network-manager-applet wireguard-tools systemd-resolvconf
 sudo pacman -S ghostty nautilus 
 sudo pacman -S lazygit
 sudo pacman -S fastfetch
 
+sudo pacman -S fuse2 gtkmm linux-headers pcsclite libcanberra 
 sudo pacman -S ttf-jetbrains-mono-nerd ttf-font-awesome
 sudo pacman -S waybar wofi cava
 sudo pacman -S swaync cliphist
