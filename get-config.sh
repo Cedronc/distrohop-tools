@@ -4,8 +4,10 @@ git config --global user.name "Cedric"
 
 sudo pacman -S git
 sudo pacman -S github-cli
-cp -r ~/.config/. ~/.config.bak
+mkdir -p ~/config.bak
+cp -r ~/.config/. ~/config.bak
 rm -fr ~/.config/
 
-gh repo clone Cedronc/.config
-cp ~/.config.bak/. ~/.config/.
+cd ~
+git clone https://github.com/Cedronc/.config.git
+cp -r ~/config.bak/. ~/.config/.
