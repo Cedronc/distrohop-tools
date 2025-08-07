@@ -12,6 +12,7 @@ yay -S --noconfirm --needed ncurses5-compat-libs vmware-keymaps
 yay -S --noconfirm --needed  vmware-workstation
 yay -S --noconfirm spicetify-cli
 yay -S --noconfirm overskride
+yay -S --noconfirm matugen-bin
 flatpak install flathub dev.vencord.Vesktop
 
 
